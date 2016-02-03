@@ -1,0 +1,80 @@
+//VARIABLES
+$em-color: #1caa98;
+
+body {
+  padding-top: 50px;
+}
+
+.em-text{
+    color:$em-color !important;
+}
+section {
+    padding: 40px 0 40px 0;
+    
+    &#feature {
+        background: $em-color;
+        color: #fff;
+        padding: 40px;
+        overflow: auto;
+        
+        ul{
+                font-size: 22px;
+                list-style: none;
+                line-height: 2em;
+        }
+    }
+    
+}
+
+.jumbotron{
+    background: url(../images/site_showcase_bg.jpg) no-repeat top center;
+    color: #fff;
+    height: 500px;
+    overflow: hidden;
+    
+    h1{
+        margin-top:60px;
+    }
+    
+    p {
+        margin-bottom: 40px;
+    }
+    
+    img.app-btn {
+        width: 40%;
+        margin-right: 30px;
+    }
+    
+    img.showcase-img {
+        width:75%;
+    }
+    
+}
+
+img.demo{
+    width:100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 0 20px 0;
+    
+    li{
+        float:left;
+        padding: 0 10px 0 10px;
+        list-style: none;
+    }
+    
+    p{
+        float:right;
+    }
+    
+    a {
+        color:#fff;
+    }
+}
+
+
